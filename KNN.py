@@ -75,17 +75,17 @@ def get_corresponding_attr_dataset(data, attribute):
 def save_KNN_img(attribute, object_attr_vector):
     data = load_label()
     negative, positive = get_corresponding_attr_dataset(data, attribute)
-    img_names = os.listdir("E://数据集//lfw//lfw//" + object_attr_vector[0][0].replace(" ", "_"))
-    Image.open("E://数据集//lfw//lfw//" + object_attr_vector[0][0].replace(" ", "_") + "//" + img_names[0]).save("./input_img//" + object_attr_vector[0][0] + ".jpg")
+    img_names = os.listdir("./lfw//" + object_attr_vector[0][0].replace(" ", "_"))
+    Image.open("./lfw//" + object_attr_vector[0][0].replace(" ", "_") + "//" + img_names[0]).save("./input_img//" + object_attr_vector[0][0] + ".jpg")
     neg = KNN(object_attr_vector, negative, K)
     pos = KNN(object_attr_vector, positive, K)
     for i in range(K):
         filename = neg[i].name[0].replace(" ", "_")
         img_num = neg[i].num[0]
-        Image.open("E://数据集//lfw//lfw//" + filename + "//" + filename + "_" + "%04d" % (img_num) + ".jpg").save("./source//" + str(i) + ".jpg")
+        Image.open("./lfw//lfw//" + filename + "//" + filename + "_" + "%04d" % (img_num) + ".jpg").save("./source//" + str(i) + ".jpg")
         filename = pos[i].name[0].replace(" ", "_")
         img_num = pos[i].num[0]
-        Image.open("E://数据集//lfw//lfw//" + filename + "//" + filename + "_" + "%04d" %(img_num) + ".jpg").save("./target//" + str(i) + ".jpg")
+        Image.open("./lfw//lfw//" + filename + "//" + filename + "_" + "%04d" %(img_num) + ".jpg").save("./target//" + str(i) + ".jpg")
     pass
 
 if __name__=="__main__":
