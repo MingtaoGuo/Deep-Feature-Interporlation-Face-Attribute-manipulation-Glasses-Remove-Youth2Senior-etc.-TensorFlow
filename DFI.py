@@ -34,7 +34,7 @@ class DFI:
         input_img = misc.imresize(input_img[H // 2 - 100:H // 2 + 100, W // 2 - 100:W // 2 + 100, :3], [200, 200])[np.newaxis, :, :, :]#Crop the center image from the raw image
         Image.fromarray(np.uint8(input_img[0, :, :, :])).save("./input_img//croped_img.jpg")#Save the croped image
         self.sess.run(tf.assign(self.z, input_img))#Initialize z with input_image
-        for step in range(10):
+        for step in range(2):
             self.Opt.minimize(self.sess, feed_dict={self.x: input_img, self.w: w})
             if step % 1 == 0:
                 [img, loss] = self.sess.run([self.z, self.loss],feed_dict={self.x: input_img, self.w: w})
