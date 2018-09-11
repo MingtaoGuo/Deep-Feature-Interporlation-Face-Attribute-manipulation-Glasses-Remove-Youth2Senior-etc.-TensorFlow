@@ -21,6 +21,7 @@ Step 3. Change the input_img's file path in 'DFI.py' and excute it
 
 =============================
 # results
+
 |Person|Senior|Mustache|Mouth Open|Smiling|Eye Close|
 |-|-|-|-|-|-|
-|https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3.jpg|https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_senior.jpg|https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_mustache.jpg|https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_mouthopen.jpg|https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_smiling.jpg|https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_eyeclose.jpg|
+|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_senior.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_mustache.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_mouthopen.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_smiling.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_eyeclose.jpg)|
