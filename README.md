@@ -3,6 +3,7 @@ A simple implementation of the paper 'Deep Feature Interpolation for Image Conte
 # Introduction
 This code is simple to read, which mainly implement the paper [Deep Feature Interpolation for Image Content Changes](https://arxiv.org/abs/1611.05507). This method mainly address the problem of face attribute manipulation, e.g. glasses remove, change age, mouth close2open, etc.
 ![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/method.jpg)
+
 This method is simple, but very effective. it is very similar with style transfer.
 # How to use
 Step 1. Downloading the dataset of face, this address: [Labeled Faces in the Wild(LFW)](http://vis-www.cs.umass.edu/lfw/lfw.tgz). unzip it, and put it into the folder 'lfw'. Pretrained [VGG19](https://pan.baidu.com/s/1YFKdRoB2v9nxScoUG8WRpw) model is needed, download it and put it into the folder 'vgg_para'.
