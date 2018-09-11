@@ -21,7 +21,14 @@ Step 3. Change the input_img's file path in 'DFI.py' and excute it
 
 =============================
 # results
-
+## Glasses Remove
+|Person|Alpha=2|Alpha=3|Alpha=4|
+|-|-|-|-|
+|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/7.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/7_alpha2.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/7_alpha3.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/7_alpha4.jpg)|
+|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/8.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/8_alpha2.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/8_alpha3.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/8_alpha4.jpg)|
+|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/9.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/9_alpha2.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/9_alpha3.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/9_alpha4.jpg)|
+|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/10.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/10_alpha2.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/10_alpha3.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/10_alpha4.jpg)|
+## Face attribute manipulation
 |Person|Senior|Mustache|Mouth Open|Smiling|Eye Close|
 |-|-|-|-|-|-|
 |![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_senior.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_mustache.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_mouthopen.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_smiling.jpg)|![](https://github.com/MingtaoGuo/Deep-Feature-Interporlation-Glasses-Remove-TensorFlow/blob/master/IMAGES/3_eyeclose.jpg)|
