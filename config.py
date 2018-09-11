@@ -1,0 +1,4 @@
+K = 100
+BETA = 0.4
+LAMBDA = 0.001
+ALPHA = 3.0
