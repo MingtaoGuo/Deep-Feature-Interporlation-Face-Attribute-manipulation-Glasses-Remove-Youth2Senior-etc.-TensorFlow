@@ -21,7 +21,7 @@ class person:
         self.dist = dist
 
 
-def load_label(path="C://Users//gmt//Desktop//lfw_label.mat"):
+def load_label(path="./lfw_label.mat"):
     return sio.loadmat(path)["lfwlabel1"]
 
 def l1_distance(attr0, attr1):
