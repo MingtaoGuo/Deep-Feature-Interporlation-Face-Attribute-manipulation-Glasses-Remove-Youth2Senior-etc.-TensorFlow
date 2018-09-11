@@ -21,7 +21,7 @@ Step 3. Change the input_img's file path in 'DFI.py' and excute it
 5. pillow
 
 =============================
-# results
+# Results
 ## Glasses Remove
 |Raw|Alpha=2|Alpha=3|Alpha=4|
 |-|-|-|-|
