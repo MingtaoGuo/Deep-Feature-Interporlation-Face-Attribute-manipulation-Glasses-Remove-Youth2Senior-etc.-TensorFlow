@@ -95,6 +95,7 @@ if __name__=="__main__":
     #Senior
     #Middle Aged
     #Eyes Open
+    #Eyeglasses
     target_attr = "Mustache"
     data = load_label()
     save_KNN_img(target_attr, data[0, :])
