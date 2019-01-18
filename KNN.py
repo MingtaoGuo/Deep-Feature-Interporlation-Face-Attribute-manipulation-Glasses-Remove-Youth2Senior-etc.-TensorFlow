@@ -82,10 +82,10 @@ def save_KNN_img(attribute, object_attr_vector):
     for i in range(K):
         filename = neg[i].name[0].replace(" ", "_")
         img_num = neg[i].num[0]
-        Image.open("./lfw//lfw//" + filename + "//" + filename + "_" + "%04d" % (img_num) + ".jpg").save("./source//" + str(i) + ".jpg")
+        Image.open("./lfw//" + filename + "//" + filename + "_" + "%04d" % (img_num) + ".jpg").save("./source//" + str(i) + ".jpg")
         filename = pos[i].name[0].replace(" ", "_")
         img_num = pos[i].num[0]
-        Image.open("./lfw//lfw//" + filename + "//" + filename + "_" + "%04d" %(img_num) + ".jpg").save("./target//" + str(i) + ".jpg")
+        Image.open("./lfw//" + filename + "//" + filename + "_" + "%04d" %(img_num) + ".jpg").save("./target//" + str(i) + ".jpg")
     pass
 
 if __name__=="__main__":
